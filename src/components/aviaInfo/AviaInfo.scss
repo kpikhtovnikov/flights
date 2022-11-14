@@ -1,0 +1,74 @@
+.containerAviaInfo {
+    display: flex;
+    box-shadow: 0px 0px 14px rgb(112 121 153 / 30%);
+    border-radius: 15px;
+    &-child {
+        width: 80%;
+        border-right: 1px solid #DDE3EE;
+    }
+    &-sum {
+        width: 20%;
+        align-self: center;
+        font-size: 32px;
+        font-weight: 700;
+
+    }
+    .boxAviaInfo {
+
+        &-header {
+            display: block;
+            width: 145px;
+            height: 26px;
+            background: #8BA5D8;
+            border-radius: 15px 0px;
+            color: #FFFFFF;
+            font-size: 12px;
+            line-height: 26px;
+            &__line {
+                border-top: 1px dashed rgb(92, 135, 219);
+                width: 85%;
+                display: block;
+            }
+        }
+
+        &-main {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            gap: 35px;
+            margin-bottom: 20px;
+            &__time {
+                color: #232323;
+                font-weight: 700;
+                font-size: 24px;
+            }
+            &__city {
+                font-weight: 700;
+            }
+        }
+        &-img {
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+        }
+        &-footer {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            &__time {
+                cursor: pointer;
+                border: 1px solid #B7BAC1;
+                border-radius: 10px;
+                padding: 5px;
+                font-weight: 500;
+                font-size: 16px;
+                &.active {
+                    background: #DDE3EE;
+                }
+            }
+        }
+    }
+}
