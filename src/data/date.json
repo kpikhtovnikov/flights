@@ -1,0 +1,20 @@
+{
+    "payload": [
+      {
+        "startTime": "09:20",
+        "finishTime": "11:05",
+        "active": true
+      },
+      {
+        "startTime": "10:20",
+        "finishTime": "12:05",
+        "active": false
+      },
+      {
+        "startTime": "11:20",
+        "finishTime": "13:05",
+        "active": false
+      }
+    ]
+  }
+  
