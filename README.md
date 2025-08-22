@@ -1,4 +1,4 @@
-# flights
+# flights app
 
 # Запуск проекта
 npm run start
