@@ -1,10 +1,10 @@
 # flights app
 
-# Запуск проекта
+## Запуск проекта
 npm run start
 
-# Сборка проекта
+## Сборка проекта
 npm run build
 
-# Docker
+## Docker
 npm run docker
